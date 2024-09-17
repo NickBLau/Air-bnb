@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+h1, h2, h3, section, div, figure, span, a, p, img{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    margin: 20px 0 0 0;
+}
+a, i, p{
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+i{
+    cursor: pointer;
+}
+img{
+    width: 712px;
+    height: 832px;
+    background-color: lightgray;
+}
+figure{
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+figure > span{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+section{
+    max-width: 500px;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title{
+    margin: 30px 0;
+    text-align: center;
+}
+h3{
+    margin: 35px 0 .5em;
+}
+li{
+    margin: 0 0 .5em 0;
+}
+
+.red{
+    background-color: red;
+}
+
+span{
+    color: gray;
+}
+
+span i{
+    color: red;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+}
